@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="pj2.css">
+    <script src="pj2.js"></script>
+    <title>Project Management Tool</title>
+</head>
+<body>
+ 
+    <header>
+        <h1>Project Management Tool</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Projects</a></li>
+                <li><a href="#">Team</a></li>
+                <li><a href="#">Settings</a></li>
+                <li><button id="logoutBtn">Logout</button></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <div class="sidebar">
+            <h2>Projects</h2>
+            <ul id="projectList">
+                <!-- Project list will be dynamically added here -->
+            </ul>
+            <button id="createProjectBtn">Create Project</button>
+        </div>
+        <div class="main-content">
+            <div class="project-details">
+                <h2 id="projectTitle">Select a Project</h2>
+                <p id="projectDescription">Project description will be displayed here.</p>
+            </div>
+            <div class="tasks">
+                <h3>Tasks</h3>
+                <ul id="taskList">
+                    <!-- Task list will be dynamically added here -->
+                </ul>
+                <button id="createTaskBtn">Create Task</button>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2023 Project Management Tool. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
